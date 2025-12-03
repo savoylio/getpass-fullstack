@@ -1,0 +1,261 @@
+[
+  {
+    "id": "Qmin4zkgly",
+    "type": "true_false",
+    "question": "The United States stretches from the Atlantic Ocean in the west to the Pacific Ocean in the east.",
+    "question_zh": "美国西起大西洋，东至太平洋。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl21",
+    "type": "true_false",
+    "question": "The Mississippi river is the longest river in the United States.",
+    "question_zh": "密西西比河是美国最长的河流。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglcn",
+    "type": "true_false",
+    "question": "The Appalachian region is both complicated and varied, containing some of the highest mountains in North America, but also a vast expanse of intermontane basins, plateaus, and isolated ranges.",
+    "question_zh": "阿巴拉契亚地区地形复杂多样，既包含北美洲的一些最高峰，也有广袤的山间盆地、高原和孤立山脉。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglh2",
+    "type": "true_false",
+    "question": "Western Washington and Oregon receive plenty of rain and central California is noticeably drier in winter.",
+    "question_zh": "华盛顿州和俄勒冈州西部降雨充沛，而加利福尼亚州中部冬季明显较为干燥。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglde",
+    "type": "true_false",
+    "question": "New England is sometimes called the birthplace of America.",
+    "question_zh": "新英格兰有时被称为美国的摇篮。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglqt",
+    "type": "true_false",
+    "question": "Washington D. C. is located in the Southern States Region.",
+    "question_zh": "华盛顿哥伦比亚特区位于美国南部地区。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglhu",
+    "type": "true_false",
+    "question": "Many Southerners have a strong sense of regional loyalty and take pride in the South’s history and tradition.",
+    "question_zh": "许多南方人具有强烈的地域忠诚感，并为其南方历史与传统感到自豪。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglkp",
+    "type": "true_false",
+    "question": "The Midwestern States Region is a vast area of generally flat land that covers much of the center of the United States.",
+    "question_zh": "中西部地区是一片广阔的平坦土地，覆盖了美国中部的大部分区域。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgllz",
+    "type": "true_false",
+    "question": "Las Vegas and Reno stand out as “American dreamland”, for they primarily find wealth through the gambling and entertainment industries.",
+    "question_zh": "拉斯维加斯和里诺被视为“美国梦幻之地”，因其主要通过赌博和娱乐产业获取财富。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglly",
+    "type": "true_false",
+    "question": "Hawaii has the largest land area of all the states, and Alaska has one of the smallest land areas.",
+    "question_zh": "夏威夷州拥有全美最大的陆地面积，而阿拉斯加州的陆地面积则属于最小之列。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl54",
+    "type": "true_false",
+    "question": "In the United States, the major source of population growth is the rising birth rate.",
+    "question_zh": "在美国，人口增长的主要来源是出生率的上升。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl15",
+    "type": "true_false",
+    "question": "In the United States, the largest minority group is the African-American group.",
+    "question_zh": "在美国，最大的少数族裔群体是非裔美国人。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgln4",
+    "type": "true_false",
+    "question": "In the United States, the fastest-growing group is the Hispanic-American group.",
+    "question_zh": "在美国，增长最快的群体是拉丁裔美国人。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglfw",
+    "type": "true_false",
+    "question": "Native Americans have a low school dropout rate.",
+    "question_zh": "美洲原住民的辍学率较低。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglqz",
+    "type": "true_false",
+    "question": "The three major Hispanic groups are the Mexican-Americans, the Puerto Ricans and the Cuban-Americans.",
+    "question_zh": "三大拉丁裔群体为墨西哥裔美国人、波多黎各裔美国人和古巴裔美国人。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgl9n",
+    "type": "true_false",
+    "question": "The Puerto Ricans are American citizens.",
+    "question_zh": "波多黎各人是美国公民。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgld4",
+    "type": "true_false",
+    "question": "Today the Indians are only allowed to live on reservations.",
+    "question_zh": "如今，印第安人仅被允许居住在保留地内。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl8j",
+    "type": "true_false",
+    "question": "Traditionally, the mainstream white Americans were called WASP.",
+    "question_zh": "传统上，主流白人美国人被称为WASP（白人盎格鲁-撒克逊新教徒）。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgl3z",
+    "type": "true_false",
+    "question": "The Constitution of the United States, after its adoption, has never been revised.",
+    "question_zh": "《美利坚合众国宪法》自通过以来从未被修订。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgleb",
+    "type": "true_false",
+    "question": "Separation of power is designed to prevent the government from being too strong.",
+    "question_zh": "三权分立旨在防止政府权力过于集中。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglac",
+    "type": "true_false",
+    "question": "The U.S. government is divided into four branches: the legislative, the presidency, the bureaucracy and the judiciary.",
+    "question_zh": "美国政府分为四个部门：立法、行政、官僚机构和司法。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglcf",
+    "type": "true_false",
+    "question": "The Supreme Court has the right to declare laws and actions of the federal, state, and local governments unconstitutional.",
+    "question_zh": "最高法院有权宣布联邦、州及地方政府的法律和行为违宪。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgla9",
+    "type": "true_false",
+    "question": "Congressmen serve a term of six years while Senators serve a term of two years.",
+    "question_zh": "众议员任期为六年，而参议员任期为两年。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglm6",
+    "type": "true_false",
+    "question": "The Democrats are thought of as associated with big business, Anglo-Americans, and the rich.",
+    "question_zh": "民主党被认为与大企业、盎格鲁-美国人及富裕阶层相关联。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglow",
+    "type": "true_false",
+    "question": "The number of House of Representatives from each state is based upon its population.",
+    "question_zh": "各州众议院代表人数基于其人口数量。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgl3u",
+    "type": "true_false",
+    "question": "Since the U.S. economy is based on free enterprise, there is little government involvement in the economy.",
+    "question_zh": "由于美国经济基于自由企业制度，政府对经济的干预较少。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl31",
+    "type": "true_false",
+    "question": "The American West is now an important region for corn and wheat.",
+    "question_zh": "美国西部如今是玉米和小麦的重要产区。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglaj",
+    "type": "true_false",
+    "question": "As the number of workers employed in the traditional manufacturing industries has declined, union membership has dropped in recent years.",
+    "question_zh": "随着传统制造业就业人数的减少，近年来工会成员数量有所下降。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgl9k",
+    "type": "true_false",
+    "question": "The Federal Reserve System is the centrial bank of the United States.",
+    "question_zh": "联邦储备系统是美国的中央银行。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkgljd",
+    "type": "true_false",
+    "question": "According to American Common Law, the grounds for deciding cases are found in precedents provides by past decisions.",
+    "question_zh": "根据美国普通法，判案依据源于过往判决所确立的先例。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglkx",
+    "type": "true_false",
+    "question": "The Supreme Court, which is the highest court in the federal system, is the only court created by the US congress.",
+    "question_zh": "作为联邦司法体系中的最高法院，最高法院是唯一由美国国会设立的法院。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglae",
+    "type": "true_false",
+    "question": "America has one uniform set of laws for all the fifty states.",
+    "question_zh": "美国为全部五十个州制定了一套统一的法律。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl2p",
+    "type": "true_false",
+    "question": "The first English colony in America was founded at Jamestown, Virginia, in 1607.",
+    "question_zh": "美国第一处英国殖民地于1607年在弗吉尼亚州的詹姆斯敦建立。",
+    "answer": true
+  },
+  {
+    "id": "Qmin4zkglpn",
+    "type": "true_false",
+    "question": "The early British settlers organized the east coast of North America into 17 colonies.",
+    "question_zh": "早期英国殖民者将北美洲东海岸划分为17个殖民地。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglad",
+    "type": "true_false",
+    "question": "The Stock Market collapse occurred in 1928 in the United States which led to the Great Depression.",
+    "question_zh": "1928年美国股市崩盘，引发了大萧条。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkgl3l",
+    "type": "true_false",
+    "question": "The Progressive Movement was a well-organized, unified movement, demanding government regulation of economy and social condition.",
+    "question_zh": "进步运动是一场组织严密、统一的运动，要求政府对经济和社会状况进行管制。",
+    "answer": false
+  },
+  {
+    "id": "Qmin4zkglg9",
+    "type": "true_false",
+    "question": "The Marshall Plan refers to the military and economic aid to Greece and Turkey in the 1950s.",
+    "question_zh": "马歇尔计划指20世纪50年代向希腊和土耳其提供的军事与经济援助。",
+    "answer": false
+  }
+]
