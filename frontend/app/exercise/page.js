@@ -6,7 +6,7 @@ import QuestionCard from '@/components/QuestionCard';
 import api from '@/lib/api';
 import { useToast } from '@/context/ToastContext';
 import ConfirmModal from '@/components/ConfirmModal';
-import { Loader2, ArrowRight, ArrowLeft } from 'lucide-react';
+import { Loader2, ArrowRight, ArrowLeft, CornerDownLeft, X } from 'lucide-react';
 
 export default function ExercisePage() {
   const searchParams = useSearchParams();
@@ -20,25 +20,35 @@ export default function ExercisePage() {
   const [feedback, setFeedback] = useState(null);
   const startTimeRef = useRef(Date.now());
 
+  // 跳转输入框状态
+  const [jumpNum, setJumpNum] = useState('');
+
   const [modalOpen, setModalOpen] = useState(false);
   const [modalConfig, setModalConfig] = useState({});
 
   useEffect(() => {
-    const typeParam = searchParams.get('type');
-    if (typeParam) {
-      loadQuestions(typeParam);
+    const type = searchParams.get('type');
+    const mode = searchParams.get('mode'); 
+    
+    if (type || mode === 'wrong') {
+      loadQuestions(type, mode);
     } else {
       router.push('/home');
     }
   }, [searchParams, router]);
 
-  const loadQuestions = async (type) => {
+  const loadQuestions = async (type, mode) => {
     setLoading(true);
     try {
-      const res = await api.get(`/questions/exercise?type=${type}`);
+      const url = mode === 'wrong' 
+        ? `/questions/exercise?mode=wrong` 
+        : `/questions/exercise?type=${type}`;
+        
+      const res = await api.get(url);
+      
       if (res.data.length === 0) {
-        showToast('该类型题库暂时为空', 'error');
-        setTimeout(() => router.push('/home'), 2000);
+        showToast(mode === 'wrong' ? '你目前没有错题，太棒了！' : '该类型题库暂时为空', 'success');
+        setTimeout(() => router.push('/wrongbook'), 2000); 
         return;
       }
       setQuestions(res.data);
@@ -48,7 +58,7 @@ export default function ExercisePage() {
       startTimeRef.current = Date.now();
     } catch (e) { 
       console.error(e);
-      showToast('加载题目失败，请检查网络', 'error');
+      showToast('加载题目失败', 'error');
     }
     setLoading(false);
   };
@@ -72,39 +82,91 @@ export default function ExercisePage() {
       if(res.data.isCorrect) showToast("回答正确！", 'success');
       else showToast("回答错误", 'error');
     } catch(e) { 
-      showToast("提交失败，请检查网络", 'error');
+      showToast("提交失败", 'error');
     }
   };
 
   const nextQ = async () => {
     if (idx < questions.length - 1) {
       setIdx(i => i + 1);
-      setAnswer(null);
-      setFeedback(null);
-      startTimeRef.current = Date.now();
+      resetState();
     } else {
-      setModalConfig({
-        title: '恭喜完成！',
-        content: '你已刷完本类所有题目。是否提交进度并增加刷题榜轮数？',
-        onConfirm: async () => {
-           setModalOpen(false);
-           try {
-             const typeParam = searchParams.get('type');
-             await api.post('/questions/finish', { type: typeParam });
-             showToast('进度已保存！即将返回首页', 'success');
-             setTimeout(() => router.push('/home'), 1500);
-           } catch (e) {
-             showToast('保存进度失败', 'error');
-             router.push('/home');
-           }
-        }
-      });
-      setModalOpen(true);
+      handleFinish();
     }
   };
 
-  const handleQuit = () => {
-    router.push('/home');
+  const prevQ = () => {
+    if (idx > 0) {
+      setIdx(i => i - 1);
+      resetState();
+    }
+  };
+
+  const handleJump = () => {
+    if (!jumpNum) return;
+    const target = parseInt(jumpNum, 10);
+
+    if (isNaN(target)) {
+      showToast('请输入有效的数字', 'error');
+      return;
+    }
+    if (target < 1 || target > questions.length) {
+      showToast(`题号无效，请输入 1 - ${questions.length} 之间的数字`, 'error');
+      return;
+    }
+    if (target - 1 === idx) return;
+
+    setIdx(target - 1);
+    resetState();
+    setJumpNum(''); 
+  };
+
+  const resetState = () => {
+    setAnswer(null);
+    setFeedback(null);
+    startTimeRef.current = Date.now();
+  };
+
+  const handleFinish = () => {
+    const mode = searchParams.get('mode');
+    if (mode === 'wrong') {
+      showToast('错题重练完成！', 'success');
+      setTimeout(() => router.push('/wrongbook'), 1000);
+    } else {
+      setModalConfig({
+        title: '🎉 练习结算',
+        content: '正在提交你的练习进度...',
+        onConfirm: async () => {},
+        onCancel: () => {}
+      });
+      setModalOpen(true);
+      submitProgress();
+    }
+  };
+
+  const submitProgress = async () => {
+    try {
+       const typeParam = searchParams.get('type');
+       const res = await api.post('/questions/finish', { type: typeParam });
+       
+       setModalConfig(prev => ({
+         ...prev,
+         content: (
+           <div className="text-center">
+             <p className="text-lg text-gray-700 mb-2">你已累计完成第 <span className="font-bold text-indigo-600 text-xl">{res.data.rounds}</span> 轮练习</p>
+             <p className="text-gray-500 mb-4">当前榜单排名：<span className="font-bold text-orange-500 text-xl">第 {res.data.myRank} 名</span></p>
+             <p className="text-sm text-green-600 bg-green-50 p-2 rounded">
+               {["太棒了！超越了大部分同学！", "积少成多，量变引起质变！", "保持这个节奏，高分稳了！"][Math.floor(Math.random()*3)]}
+             </p>
+           </div>
+         ),
+         onConfirm: () => router.push('/home'),
+         onCancel: () => router.push('/home')
+       }));
+    } catch (e) {
+       showToast('保存进度失败', 'error');
+       router.push('/home');
+    }
   };
 
   return (
@@ -115,10 +177,10 @@ export default function ExercisePage() {
         title={modalConfig.title} 
         content={modalConfig.content}
         onConfirm={modalConfig.onConfirm}
-        onCancel={() => setModalOpen(false)}
+        onCancel={modalConfig.onCancel}
       />
 
-      <div className="max-w-3xl mx-auto px-4 py-8">
+      <div className="max-w-3xl mx-auto px-4 py-6">
         {loading ? (
            <div className="flex flex-col items-center justify-center h-60">
              <Loader2 className="animate-spin text-indigo-600 mb-4" size={32} />
@@ -126,13 +188,46 @@ export default function ExercisePage() {
            </div>
         ) : (
           <div>
-            <div className="flex justify-between items-center mb-6">
-               <span className="text-gray-500 font-medium bg-white px-3 py-1 rounded-full border shadow-sm text-sm">
-                 第 {idx + 1} 题 <span className="text-gray-300">/</span> {questions.length}
-               </span>
-               <button onClick={handleQuit} className="text-sm font-bold text-red-500 hover:text-red-700 px-3 py-1 rounded hover:bg-red-50 transition">
-                 退出练习
-               </button>
+            {/* === 极简顶部工具栏 (修改处) === */}
+            <div className="flex items-center justify-between mb-4 px-1">
+               
+               {/* 左侧：计数器 */}
+               <div className="text-sm font-medium text-gray-500">
+                 <span className="text-indigo-600 font-bold text-base mr-0.5">{idx + 1}</span> 
+                 <span className="opacity-50">/</span> {questions.length}
+               </div>
+
+               {/* 右侧：跳转与退出 */}
+               <div className="flex items-center gap-3">
+                  
+                  {/* 微型跳转框 */}
+                  <div className="flex items-center bg-white border border-gray-200 rounded-lg px-2 py-1 shadow-sm focus-within:border-indigo-400 focus-within:ring-2 focus-within:ring-indigo-100 transition-all">
+                    <input 
+                      type="number" 
+                      inputMode="numeric"
+                      value={jumpNum}
+                      onChange={(e) => setJumpNum(e.target.value)}
+                      onKeyDown={(e) => e.key === 'Enter' && handleJump()}
+                      placeholder="#"
+                      className="w-8 text-center text-sm font-bold text-gray-700 outline-none bg-transparent placeholder-gray-300"
+                    />
+                    <button 
+                      onClick={handleJump}
+                      className="text-gray-300 hover:text-indigo-600 transition pl-1 border-l border-gray-100"
+                    >
+                      <CornerDownLeft size={14} />
+                    </button>
+                  </div>
+
+                  {/* 退出按钮 */}
+                  <button 
+                    onClick={() => router.push(searchParams.get('mode') === 'wrong' ? '/wrongbook' : '/home')} 
+                    className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition"
+                    title="退出练习"
+                  >
+                    <X size={18} />
+                  </button>
+               </div>
             </div>
             
             <QuestionCard 
@@ -145,25 +240,18 @@ export default function ExercisePage() {
 
             <div className="flex justify-between mt-8">
               <button 
-                onClick={() => {
-                  if (idx > 0) {
-                    setIdx(i => i - 1);
-                    setAnswer(null);
-                    setFeedback(null);
-                    startTimeRef.current = Date.now();
-                  }
-                }} 
+                onClick={prevQ} 
                 disabled={idx === 0} 
-                className="flex items-center gap-2 px-6 py-3 bg-white border border-gray-300 text-gray-600 rounded-xl font-bold hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition"
+                className="flex items-center gap-2 px-5 py-3 bg-white border border-gray-200 text-gray-600 rounded-xl font-bold hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition shadow-sm"
               >
                 <ArrowLeft size={18} /> 上一题
               </button>
 
               {!feedback ? (
-                <button onClick={handleCheck} className="bg-indigo-600 text-white px-10 py-3 rounded-xl font-bold hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all hover:-translate-y-0.5">提交答案</button>
+                <button onClick={handleCheck} className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all hover:-translate-y-0.5">提交</button>
               ) : (
-                <button onClick={nextQ} className="flex items-center gap-2 bg-gray-900 text-white px-10 py-3 rounded-xl font-bold hover:bg-black transition-all hover:-translate-y-0.5 shadow-lg shadow-gray-400">
-                  {idx === questions.length - 1 ? '完成练习' : '下一题'} <ArrowRight size={18} />
+                <button onClick={nextQ} className="flex items-center gap-2 bg-gray-900 text-white px-8 py-3 rounded-xl font-bold hover:bg-black transition-all hover:-translate-y-0.5 shadow-lg shadow-gray-400">
+                  {idx === questions.length - 1 ? '完成' : '下一题'} <ArrowRight size={18} />
                 </button>
               )}
             </div>

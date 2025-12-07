@@ -17,6 +17,7 @@
     "jsonwebtoken": "^9.0.2",
     "leancloud-storage": "^4.15.2",
     "leanengine": "^3.8.0",
+    "uuid": "^13.0.0",
     "xlsx": "^0.18.5"
   }
 }

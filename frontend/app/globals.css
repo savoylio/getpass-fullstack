@@ -1,33 +1,65 @@
-/* stylelint-disable at-rule-no-unknown */
-
+/* app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --brand-primary: #4f46e5; /* Indigo 600 */
+  --brand-secondary: #7c3aed; /* Violet 600 */
+  --bg-gradient-start: #eef2ff;
+  --bg-gradient-end: #f5f3ff;
+}
+
 body {
   background-color: #f9fafb;
   color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@layer components {
-  .btn-primary {
-    @apply bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition font-medium focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2;
-  }
-}
-@keyframes gradient-xy {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-.animate-gradient-xy {
-  background-size: 400% 400%;
-  animation: gradient-xy 15s ease infinite;
+/* 高级玻璃拟态 */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.05), 
+    0 10px 15px -3px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(0,0,0,0.02);
 }
 
-.glass-card {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+/* 动效：弹入 (Spring Entrance) */
+@keyframes enter-spring {
+  0% { transform: scale(0.95) translateY(10px); opacity: 0; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+.animate-enter {
+  animation: enter-spring 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* 动效：背景流光 */
+@keyframes blob-float {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob-float 10s infinite alternate;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+/* 输入框 Focus Ring 动效 */
+.input-focus-ring {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-focus-ring:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.15);
 }

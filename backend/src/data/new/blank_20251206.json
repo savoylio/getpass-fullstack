@@ -1,0 +1,98 @@
+[
+  {
+    "id": "b_2025_001",
+    "type": "blank",
+    "question": "____schools are free and open to all at all three levels of education, elementary, secondary and tertiary level.",
+    "question_zh": "学校在初等、中等和高等教育三个阶段均免费向所有人开放。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Public"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_002",
+    "type": "blank",
+    "question": "Every state in America has its own laws about education and all states require young people to go to school. Thus, every child in America is guaranteed up to ____years of free public education.",
+    "question_zh": "美国每个州都有自己的教育法律，所有州均要求青少年接受教育。因此，美国每名儿童都享有最高____年的免费公立教育保障。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "12"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "undefined",
+    "type": "blank",
+    "question": "The system of higher education in the United States has three principal functions:research, teaching and ____.",
+    "question_zh": "美国高等教育体系具有三大主要职能：科研、教学和。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "service"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "undefined",
+    "type": "blank",
+    "question": "In American, there are 6 years of elementary school and usually ____years of middle school (or junior high school), and ____years of high school (or senior high school).",
+    "question_zh": "在美国，小学学制为6年，通常设有____年初级中学（或初中），以及____年高级中学（或高中）。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "3",
+      "4"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "undefined",
+    "type": "blank",
+    "question": "The____Amendment to the Constitution of the United States guarantees the free exercise of religion and forbid the establishment of any religious governance.",
+    "question_zh": "美国宪法____修正案保障宗教信仰自由，并禁止设立任何宗教治理机构。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "First",
+      "1st"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "undefined",
+    "type": "blank",
+    "question": "Although in today's America the largest church is of the Protestant faith, the largest single religious group is that of the ____Catholics.",
+    "question_zh": "尽管当今美国规模最大的教会属于新教信仰，但最大的单一宗教群体是____天主教徒。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Roman"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "undefined",
+    "type": "blank",
+    "question": "The basic idea in American national polities of religion is the separation of ____and ____.",
+    "question_zh": "美国宗教政治的基本原则是____与____的分离。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "state",
+      "church",
+      "church",
+      "state"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  }
+]

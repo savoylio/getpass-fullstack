@@ -1,0 +1,182 @@
+[
+  {
+    "id": "c_2025_001",
+    "type": "choice",
+    "question": "The system of higher education in the United States has three principal functions EXCEPT_____.",
+    "question_zh": "美国高等教育体系具有三大主要职能，但以下哪项除外_____。",
+    "options": [
+      "A. research",
+      "B. teaching",
+      "C. practice",
+      "D. public service"
+    ],
+    "options_zh": [],
+    "answer": [
+      "C. practice"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_002",
+    "type": "choice",
+    "question": "Admission to an institution is determined by_____ in America.",
+    "question_zh": "在美国，院校录取由_____决定。",
+    "options": [
+      "A. each university",
+      "B. education board",
+      "C. student's points",
+      "D. the secondary school"
+    ],
+    "options_zh": [],
+    "answer": [
+      "A. each university"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_003",
+    "type": "choice",
+    "question": "_____ is free and compulsory in the United States.",
+    "question_zh": "在美国实行免费义务教育。",
+    "options": [
+      "A. Elementary and secondary education",
+      "B. Elementary, secondary and higher education",
+      "C. Secondary and higher education",
+      "D. Adult education"
+    ],
+    "options_zh": [],
+    "answer": [
+      "A. Elementary and secondary education"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_004",
+    "type": "choice",
+    "question": "Higher education in the United States began with the founding of_____ in 1636.",
+    "question_zh": "美国高等教育始于1636年_____的创立。",
+    "options": [
+      "A. MIT",
+      "B. Yale",
+      "C. Princeton",
+      "D. Harvard College"
+    ],
+    "options_zh": [],
+    "answer": [
+      "D. Harvard College"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_005",
+    "type": "choice",
+    "question": "To many Americans, education is important because _____________.",
+    "question_zh": "对许多美国人而言，教育之所以重要，是因为。",
+    "options": [
+      "A. it contributes to the success of individuals",
+      "B. it contributes to the strengthening of national strength",
+      "C. it prepares the young people for future economy development",
+      "D. Both A and B"
+    ],
+    "options_zh": [],
+    "answer": [
+      "D. Both A and B"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_006",
+    "type": "choice",
+    "question": "In the United States, public schools at the elementary and secondary level are ______________.",
+    "question_zh": "在美国，公立中小学由_______________管理。",
+    "options": [
+      "A. free",
+      "B. compulsory",
+      "C. open to all",
+      "D. Both A and C"
+    ],
+    "options_zh": [],
+    "answer": [
+      "D. Both A and C"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_007",
+    "type": "choice",
+    "question": "American schools fall into two categories, namely, _______________.",
+    "question_zh": "美国学校分为两大类别，即。",
+    "options": [
+      "A. public and private schools",
+      "B. academic and vocational schools",
+      "C. coeducation and single sex schools",
+      "D. national and state-run schools"
+    ],
+    "options_zh": [],
+    "answer": [
+      "A. public and private schools"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_008",
+    "type": "choice",
+    "question": "In the United States, education policies are made by ______________.",
+    "question_zh": "美国教育政策由_______________制定。",
+    "options": [
+      "A. the federal government",
+      "B. the state board of education",
+      "C. local school district",
+      "D. board of trustees"
+    ],
+    "options_zh": [],
+    "answer": [
+      "B. the state board of education"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_009",
+    "type": "choice",
+    "question": "There is _______________ difference(s) in tuition rates between public and private institutions of higher learning in the U.S.",
+    "question_zh": "美国公立与私立高等教育机构的学费标准存在_______________差异。",
+    "options": [
+      "A. no",
+      "B. significant",
+      "C. some",
+      "D. not much"
+    ],
+    "options_zh": [],
+    "answer": [
+      "B. significant"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_010",
+    "type": "choice",
+    "question": "The community college _______________.",
+    "question_zh": "社区学院__________。",
+    "options": [
+      "A. offers bachelor degrees",
+      "B. offers associate degrees",
+      "C. offers master degrees",
+      "D. Both A and B"
+    ],
+    "options_zh": [],
+    "answer": [
+      "B. offers associate degrees"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  }
+]

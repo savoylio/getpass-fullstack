@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tf_2025_001",
+    "type": "true_false",
+    "question": "Americans generally hold that everyone is entitled to education.",
+    "question_zh": "美国人普遍认为每个人都有权接受教育。",
+    "options": [],
+    "options_zh": [],
+    "answer": true,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_002",
+    "type": "true_false",
+    "question": "Americans believe that education is beneficial to individuals and society as a whole.",
+    "question_zh": "美国人相信教育对个人及整个社会均有益处。",
+    "options": [],
+    "options_zh": [],
+    "answer": true,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_003",
+    "type": "true_false",
+    "question": "In the United States, public education at elementary and secondary level is free.",
+    "question_zh": "在美国，初等和中等公立教育实行免费制度。",
+    "options": [],
+    "options_zh": [],
+    "answer": true,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_004",
+    "type": "true_false",
+    "question": "c_2025_004",
+    "question_zh": "美国教育体系以多样性为主要特征。",
+    "options": [],
+    "options_zh": [],
+    "answer": true,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_005",
+    "type": "true_false",
+    "question": "According to the U.S. Constitution, education is the responsibility of the federal government.",
+    "question_zh": "根据美国宪法，教育属于联邦政府的职责范畴。",
+    "options": [],
+    "options_zh": [],
+    "answer": false,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_006",
+    "type": "true_false",
+    "question": "There is little similarity in the education system of the 50 states.",
+    "question_zh": "美国50个州的教育体系之间几乎没有相似之处。",
+    "options": [],
+    "options_zh": [],
+    "answer": false,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_007",
+    "type": "true_false",
+    "question": "The state board of education is responsible for the education policy of the state.",
+    "question_zh": "州教育委员会负责制定本州的教育政策。",
+    "options": [],
+    "options_zh": [],
+    "answer": true,
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "tf_2025_008",
+    "type": "true_false",
+    "question": "Community colleges offer only B.A. degrees.",
+    "question_zh": "社区学院仅提供文学学士学位。",
+    "options": [],
+    "options_zh": [],
+    "answer": false,
+    "alt_answer": [],
+    "blank_count": 0
+  }
+]

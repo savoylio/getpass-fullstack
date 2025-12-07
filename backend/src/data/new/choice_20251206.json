@@ -1,0 +1,92 @@
+[
+  {
+    "id": "c_2025_001",
+    "type": "choice",
+    "question": "The Protestant denomination includes the following EXCEPT_____.",
+    "question_zh": "以下哪项不属于新教教派_____。",
+    "options": [
+      "A. the Baptists",
+      "B. the Catholics",
+      "C. the Methodists",
+      "D. the Presbyterians"
+    ],
+    "options_zh": [],
+    "answer": [
+      "B. the Catholics"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_002",
+    "type": "choice",
+    "question": "The three basic religious beliefs in America include the following EXCEPT_____.",
+    "question_zh": "美国的三大基本宗教信仰不包括以下哪项_____。",
+    "options": [
+      "A. Protestant",
+      "B. Islamic",
+      "C. Catholic",
+      "D. Judaism"
+    ],
+    "options_zh": [],
+    "answer": [
+      "B. Islamic"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_003",
+    "type": "choice",
+    "question": "The largest church in the United States is of the ________ faith.",
+    "question_zh": "美国规模最大的教会属于________教派。",
+    "options": [
+      "A. Protestant",
+      "B. Islamic",
+      "C. Catholic",
+      "D. Judaism"
+    ],
+    "options_zh": [],
+    "answer": [
+      "A. Protestant"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_004",
+    "type": "choice",
+    "question": "In the US, people go to church mainly for the following reasons EXCEPT_____.",
+    "question_zh": "美国人去教堂的主要原因不包括以下哪项_____。",
+    "options": [
+      "A. for finding a job in society",
+      "B. for having a place in a community",
+      "C. for identifying themselves with dominant value",
+      "D. for getting together with others"
+    ],
+    "options_zh": [],
+    "answer": [
+      "A. for finding a job in society"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  },
+  {
+    "id": "c_2025_005",
+    "type": "choice",
+    "question": "The Pilgrims were able to survive in America because_____.",
+    "question_zh": "清教徒能够在美洲大陆生存下来，是因为_____。",
+    "options": [
+      "A. they received help from the Indians",
+      "B. they were supported by rich companies",
+      "C. many ships brought them food from England",
+      "D. they had signed the Mayflower Compact"
+    ],
+    "options_zh": [],
+    "answer": [
+      "A. they received help from the Indians"
+    ],
+    "alt_answer": [],
+    "blank_count": 0
+  }
+]

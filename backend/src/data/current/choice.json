@@ -1,0 +1,1405 @@
+[
+  {
+    "id": "Qmin4zkgifz",
+    "type": "choice",
+    "question": "Which of the following is NOT a kind of court of the United States?",
+    "question_zh": "以下哪项不是美国的法院类型？",
+    "options": [
+      "A. the national court",
+      "B. the Supreme Court",
+      "C. the court of appeals",
+      "D. the district courts"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. the national court"
+  },
+  {
+    "id": "Qmin4zkgico",
+    "type": "choice",
+    "question": "There are currently ________ district courts in the United States.",
+    "question_zh": "目前美国共有________个地区法院。",
+    "options": [
+      "A. 52",
+      "B. 54",
+      "C. 92",
+      "D. 94"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. 94"
+  },
+  {
+    "id": "Qmin4zkgii5",
+    "type": "choice",
+    "question": "There are currently _______ courts of appeals in the United States.",
+    "question_zh": "目前美国共有________个上诉法院。",
+    "options": [
+      "A. 10",
+      "B. 11",
+      "C. 12",
+      "D. 13"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. 12"
+  },
+  {
+    "id": "Qmin4zkgifl",
+    "type": "choice",
+    "question": "District judgeships are filled by the President with the consent of _________.",
+    "question_zh": "地区法官职位由总统任命，但需获得________的同意。",
+    "options": [
+      "A. Chief Justice of Supreme Court",
+      "B. Attorney General",
+      "C. the Senate",
+      "D. the House of Representatives"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. the Senate"
+  },
+  {
+    "id": "Qmin4zkgi3o",
+    "type": "choice",
+    "question": "Generally, the trial or petit jury consists of _______ ordinary citizens.",
+    "question_zh": "通常，陪审团由________名普通公民组成。",
+    "options": [
+      "A. 1-6",
+      "B. 6-12",
+      "C. 12-23",
+      "D. 23-30"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. 6-12"
+  },
+  {
+    "id": "Qmin4zkgi7b",
+    "type": "choice",
+    "question": "Generally, the grand jury consists of _______ ordinary citizens.",
+    "question_zh": "通常，大陪审团由________名普通公民组成。",
+    "options": [
+      "A. 1-6",
+      "B. 6-12",
+      "C. 12-23",
+      "D. 23-30"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. 12-23"
+  },
+  {
+    "id": "Qmin4zkginh",
+    "type": "choice",
+    "question": "The Supreme Court consists of a chief justice and _______ associate justices.",
+    "question_zh": "美国最高法院由1位首席大法官和________位大法官组成。",
+    "options": [
+      "A. 7",
+      "B. 8",
+      "C. 9",
+      "D. 10"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. 8"
+  },
+  {
+    "id": "Qmin4zkgihk",
+    "type": "choice",
+    "question": "In the United States, people between the ages of _______ are the most inclined age group to commit crimes.",
+    "question_zh": "在美国，岁年龄段的人群犯罪倾向最高。",
+    "options": [
+      "A. 11-19",
+      "B. 19-24",
+      "C. 24-45",
+      "D. 45-54"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. 11-19"
+  },
+  {
+    "id": "Qmin4zkgibc",
+    "type": "choice",
+    "question": "Which of the following is NOT considered when the aids of public services are given?",
+    "question_zh": "在提供公共服务援助时，以下哪项不被考虑？",
+    "options": [
+      "A. Income",
+      "B. dependent family members",
+      "C. employment situation",
+      "D. location of residence"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. location of residence"
+  },
+  {
+    "id": "Qmin4zkgi7e",
+    "type": "choice",
+    "question": "The US didn’t set up a social security system on a national level until the Social Security Act passed in __.",
+    "question_zh": "美国直到《社会保障法》于________年通过后，才在全国范围内建立了社会保障体系。",
+    "options": [
+      "A. 1864",
+      "B. 1929",
+      "C. 1935",
+      "D. 1945"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. 1935"
+  },
+  {
+    "id": "Qmin4zkginu",
+    "type": "choice",
+    "question": "The United States ranks ________ in the world in the total value of its economic production.",
+    "question_zh": "按经济产出总值计算，美国位居世界。",
+    "options": [
+      "A. first",
+      "B. second",
+      "C. third",
+      "D. Fourth"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. first"
+  },
+  {
+    "id": "Qmin4zkgimp",
+    "type": "choice",
+    "question": "The following are the factors that have contributed to the development of the U.S. economy EXCEPT .",
+    "question_zh": "以下因素均促进了美国经济发展，但________除外。",
+    "options": [
+      "A. the vast space and resources of the land",
+      "B. continuous influx of immigrants",
+      "C. English as its national language",
+      "D. a powerful financial market"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. English as its national language"
+  },
+  {
+    "id": "Qmin4zkgi4r",
+    "type": "choice",
+    "question": "What is America’s most important food crop?",
+    "question_zh": "美国最重要的粮食作物是什么？",
+    "options": [
+      "A. Corn.",
+      "B. Rice.",
+      "C. Barley.",
+      "D. Oat."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Corn."
+  },
+  {
+    "id": "Qmin4zkgimz",
+    "type": "choice",
+    "question": "Service industries account for more than _________ of the U.S. gross domestic product.",
+    "question_zh": "服务业占美国国内生产总值的比重超过________。",
+    "options": [
+      "A. a third",
+      "B. half",
+      "C. two thirds",
+      "D. three fourth"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. three fourth"
+  },
+  {
+    "id": "Qmin4zkginq",
+    "type": "choice",
+    "question": "The American South is a center of the following traditional crops EXCEPT .",
+    "question_zh": "美国南部是以下传统农作物的中心产区，但________除外。",
+    "options": [
+      "A. tobacco",
+      "B. corn",
+      "C. cotton",
+      "D. wheat"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. wheat"
+  },
+  {
+    "id": "Qmin4zkgiji",
+    "type": "choice",
+    "question": "In the United States, the following areas tend to specialize in high-tech and computer industries EXCEPT .",
+    "question_zh": "在美国，以下地区通常专注于高科技和计算机产业，但________除外。",
+    "options": [
+      "A. Northeast",
+      "B. Midwest",
+      "C. Northwest",
+      "D. Southwest"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. Midwest"
+  },
+  {
+    "id": "Qmin4zkgi82",
+    "type": "choice",
+    "question": "After World War I, the world's financial center has transformed from _____ to.",
+    "question_zh": "第一次世界大战后，世界金融中心从________转移至________。",
+    "options": [
+      "A. New York, Washington D. C.",
+      "B. London, New York",
+      "C. London, Paris",
+      "D. Paris, New York"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. London; New York"
+  },
+  {
+    "id": "Qmin4zkgiiz",
+    "type": "choice",
+    "question": "The monopolies of the US automobile industry are the following EXCEPT.",
+    "question_zh": "美国汽车行业的垄断企业包括以下，但________除外。",
+    "options": [
+      "A. Ford Motors",
+      "B. General Motors",
+      "C. BMW",
+      "D. Chrysler"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. BMW"
+  },
+  {
+    "id": "Qmin4zkgi3v",
+    "type": "choice",
+    "question": "Which of the followings is NOT true about the US economy?",
+    "question_zh": "关于美国经济，以下哪项表述不正确？",
+    "options": [
+      "A. The economic system of the US is largely a market-oriented economy.",
+      "B. The agriculture industry of the US is not well organized.",
+      "C. The American economy is based largely on a free enterprise system.",
+      "D. The US economy is highly diversified."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. The agriculture industry of the US is not well organized."
+  },
+  {
+    "id": "Qmin4zkgiah",
+    "type": "choice",
+    "question": "Which is NOT included in service industry?",
+    "question_zh": "以下哪项不属于服务业？",
+    "options": [
+      "A. Banking.",
+      "B. Management consultation.",
+      "C. Insurance",
+      "D. Steelmaking."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Steelmaking."
+  },
+  {
+    "id": "Qmin4zkgikp",
+    "type": "choice",
+    "question": "The United States produces as much as half of the world's.",
+    "question_zh": "美国生产了全球________产量的一半。",
+    "options": [
+      "A. wheat and rice",
+      "B. soybeans and corn",
+      "C. tobacco and vegetable oil",
+      "D. cotton"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. soybeans and corn"
+  },
+  {
+    "id": "Qmin4zkgimh",
+    "type": "choice",
+    "question": "Which of the following is NOT factor contributed to the development of industry in the US?",
+    "question_zh": "以下哪项不是促进美国工业发展的因素？",
+    "options": [
+      "A. diversified ethnic groups",
+      "B. abundant resources",
+      "C. vast market",
+      "D. innovated technology"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. diversified ethnic groups"
+  },
+  {
+    "id": "Qmin4zkgife",
+    "type": "choice",
+    "question": "The president in the US can serve _____ term(s).",
+    "question_zh": "美国总统可连任________届。",
+    "options": [
+      "A. one",
+      "B. two",
+      "C. three",
+      "D. four"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. two"
+  },
+  {
+    "id": "Qmin4zkgi42",
+    "type": "choice",
+    "question": "Which branch of the American government has the power to interpret the Constitution?",
+    "question_zh": "美国政府中，哪个部门拥有解释宪法的权力？",
+    "options": [
+      "A. The President.",
+      "B. The House.",
+      "C. The Senate.",
+      "D. The Supreme Court."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. The Supreme Court."
+  },
+  {
+    "id": "Qmin4zkgiex",
+    "type": "choice",
+    "question": "American Presidents are elected.",
+    "question_zh": "美国总统由________选举产生。",
+    "options": [
+      "A. every two years",
+      "B. every four years",
+      "C. every five years",
+      "D. every six years"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. every four years"
+  },
+  {
+    "id": "Qmin4zkgir2",
+    "type": "choice",
+    "question": "Which of the following is NOT true about the Supreme Court of the US?",
+    "question_zh": "关于美国最高法院，以下哪项表述不正确？",
+    "options": [
+      "A. It is the highest court of the United States.",
+      "B. It has no power to interpret the Constitution.",
+      "C. It consists of a chief justice and eight associate justices.",
+      "D. It determines whether legislation or executive acts conform to the Constitution."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. It has no power to interpret the Constitution."
+  },
+  {
+    "id": "Qmin4zkgidp",
+    "type": "choice",
+    "question": "In the US, the heads of the various executive departments from a council of advisers are generally known as the President's.",
+    "question_zh": "在美国，各行政部门首长组成的顾问委员会通常被称为总统的________。",
+    "options": [
+      "A. Advisory Group",
+      "B. Executive Office",
+      "C. Special Commission",
+      "D. Cabinet"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Cabinet"
+  },
+  {
+    "id": "Qmin4zkgifc",
+    "type": "choice",
+    "question": "Abraham Lincoln, as candidate of, was elected President in 1860.",
+    "question_zh": "1860年，作为________候选人的亚伯拉罕·林肯当选总统。",
+    "options": [
+      "A. the Democratic Party",
+      "B. the Republican Party",
+      "C. the Labor Party",
+      "D. the Conservative Party"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. the Republican Party"
+  },
+  {
+    "id": "Qmin4zkgi1q",
+    "type": "choice",
+    "question": "The US President has a lot of powers, EXCEPT the power to.",
+    "question_zh": "美国总统拥有诸多权力，但不包括________的权力。",
+    "options": [
+      "A. veto any bill passed by Congress",
+      "B. appoint federal judges when vacancies occur",
+      "C. make laws",
+      "D. issue regulations and directives regarding the work of the federal departments"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. make laws"
+  },
+  {
+    "id": "Qmin4zkgiqb",
+    "type": "choice",
+    "question": "Each state in the US is entitled to _____ senators.",
+    "question_zh": "美国每个州有权选出________名参议员。",
+    "options": [
+      "A. three",
+      "B. four",
+      "C. two",
+      "D. five"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. two"
+  },
+  {
+    "id": "Qmin4zkgip2",
+    "type": "choice",
+    "question": "How many seats does the Senate of the Congress of the Unites States have?",
+    "question_zh": "美国国会参议院共有多少个席位？",
+    "options": [
+      "A. 100.",
+      "B. 345.",
+      "C. 435.",
+      "D. 534."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. 100."
+  },
+  {
+    "id": "Qmin4zkgi2v",
+    "type": "choice",
+    "question": "The two major parties today have ______ differences in policy concentration.",
+    "question_zh": "当今两大政党的政策重点存在________差异。",
+    "options": [
+      "A. no",
+      "B. little",
+      "C. some",
+      "D. great"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. some"
+  },
+  {
+    "id": "Qmin4zkgif6",
+    "type": "choice",
+    "question": "The writers of the Constitution worked out the checks and balances in order to _______.",
+    "question_zh": "宪法起草者设计制衡机制的目的是________。",
+    "options": [
+      "A. prevent the government from misusing its power",
+      "B. prevent the government from being strong",
+      "C. pacify those who opposed the Constitution",
+      "D. meet the demands of small states"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. prevent the government from misusing its power"
+  },
+  {
+    "id": "Qmin4zkgi56",
+    "type": "choice",
+    "question": "The President of the United States is elected _____.",
+    "question_zh": "美国总统由________选举产生。",
+    "options": [
+      "A. indirectly by the electors",
+      "B. by Congress",
+      "C. directly by the voters",
+      "D. None of the above."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. None of the above."
+  },
+  {
+    "id": "Qmin4zkgip2",
+    "type": "choice",
+    "question": "________ has the power to elect the U.S. President in Electoral College deadlocks .",
+    "question_zh": "若选举人团僵持不下，有权选举美国总统。",
+    "options": [
+      "A. the House of Representatives",
+      "B. the Senate",
+      "C. the Cabinet",
+      "D. the Supreme Court"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. the House of Representatives"
+  },
+  {
+    "id": "Qmin4zkgim6",
+    "type": "choice",
+    "question": "The Supreme Court of the United States consists of one Chief Justice and ______ Associate Justices.",
+    "question_zh": "美国最高法院由1位首席大法官和________位大法官组成。",
+    "options": [
+      "A. 6",
+      "B. 7",
+      "C. 8",
+      "D. 10"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. 8"
+  },
+  {
+    "id": "Qmin4zkgi1y",
+    "type": "choice",
+    "question": "The U.S. Congress has the power to override the president’s veto by a _____ majority.",
+    "question_zh": "美国国会可通过________多数票推翻总统的否决。",
+    "options": [
+      "A. 2/3",
+      "B. 3/4",
+      "C. 3/5",
+      "D. 4/5"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. 2/3"
+  },
+  {
+    "id": "Qmin4zkgib8",
+    "type": "choice",
+    "question": "The current situation of African-Americans presents _______.",
+    "question_zh": "当前非裔美国人的现状表现为。",
+    "options": [
+      "A. a favorable picture",
+      "B. a negative picture",
+      "C. a mixed picture",
+      "D. a positive picture"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. a mixed picture"
+  },
+  {
+    "id": "Qmin4zkgi2b",
+    "type": "choice",
+    "question": "Although discrimination has been legally abolished, ________.",
+    "question_zh": "尽管法律上已废除歧视，但________。",
+    "options": [
+      "A. discrimination in employment still exists",
+      "B. discrimination in university admission still exists",
+      "C. poverty rate of the blacks is the highest among all racial and ethnic groups",
+      "D. inequality and subtle discrimination still exist"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. inequality and subtle discrimination still exist"
+  },
+  {
+    "id": "Qmin4zkgi7d",
+    "type": "choice",
+    "question": "Now about 80% to 90% of immigration to the United States is from _______.",
+    "question_zh": "如今，约80%至90%的美国移民来自________。",
+    "options": [
+      "A. Asian and Hispanic countries",
+      "B. African countries",
+      "C. European countries",
+      "D. Central and South American countries"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Asian and Hispanic countries"
+  },
+  {
+    "id": "Qmin4zkginy",
+    "type": "choice",
+    "question": "Some people say Asian-Americans owe their success to the Asian tradition of the following EXCEPT ________.",
+    "question_zh": "有人认为亚裔美国人的成功归功于亚洲传统，但________除外。",
+    "options": [
+      "A. family",
+      "B. hard work",
+      "C. education",
+      "D. discrimination"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. discrimination"
+  },
+  {
+    "id": "Qmin4zkgipp",
+    "type": "choice",
+    "question": "The first immigrants in American history came from ______.",
+    "question_zh": "美国历史上首批移民来自________。",
+    "options": [
+      "A. England and the Netherlands",
+      "B. Ireland",
+      "C. West Germany",
+      "D. East Europe"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. England and the Netherlands"
+  },
+  {
+    "id": "Qmin4zkgios",
+    "type": "choice",
+    "question": "Among the major Hispanic groups in the United States, the largest group is .",
+    "question_zh": "在美国主要的西班牙裔群体中，人数最多的是________。",
+    "options": [
+      "A. the Puerto Ricans",
+      "B. the Mexican-Americans",
+      "C. the Cuban-Americans",
+      "D. the Central and South American immigrants"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. the Mexican-Americans"
+  },
+  {
+    "id": "Qmin4zkgi9p",
+    "type": "choice",
+    "question": "The Native Americans are .",
+    "question_zh": "美洲原住民是________。",
+    "options": [
+      "A. the Indians",
+      "B. the whites",
+      "C. the blacks",
+      "D. the Hispanics"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. the Indians"
+  },
+  {
+    "id": "Qmin4zkginn",
+    "type": "choice",
+    "question": "People often describe the characteristics of American population with the following terms EXCEPT* .",
+    "question_zh": "人们常用以下术语描述美国人口特征，但________除外。",
+    "options": [
+      "A. Melting pot",
+      "B. Salad bowl",
+      "C. Pizza",
+      "D. Spaghetti"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Spaghetti"
+  },
+  {
+    "id": "Qmin4zkgini",
+    "type": "choice",
+    "question": "The largest of the racial and ethnic minorities in the US is *********.",
+    "question_zh": "美国最大规模的种族和族裔少数群体是________。",
+    "options": [
+      "A. the Indians",
+      "B. the Japanese",
+      "C. the Chinese",
+      "D. the Hispanics"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. the Hispanics"
+  },
+  {
+    "id": "Qmin4zkgihx",
+    "type": "choice",
+    "question": "The United States is the******** most populous nation in the world.",
+    "question_zh": "美国是世界________人口大国。",
+    "options": [
+      "A. the first",
+      "B. the second",
+      "C. the third",
+      "D. the fourth"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. the third"
+  },
+  {
+    "id": "Qmin4zkgip5",
+    "type": "choice",
+    "question": "The most densely populated region is the _________ part of the country.",
+    "question_zh": "人口最稠密的地区是该国的________部分。",
+    "options": [
+      "A. western",
+      "B. southern",
+      "C. northeastern",
+      "D. southwestern"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. northeastern"
+  },
+  {
+    "id": "Qmin4zkgie2",
+    "type": "choice",
+    "question": "Today, __________ are one of the fastest growing minorities in America due to immigration (legal and illegal) and higher birth rates.",
+    "question_zh": "如今，由于移民（包括合法与非法）和较高出生率，________已成为美国增长最快的少数群体之一。",
+    "options": [
+      "A. Asian Americans",
+      "B. American Indians",
+      "C. the Whites",
+      "D. Hispanics"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Hispanics"
+  },
+  {
+    "id": "Qmin4zkgip0",
+    "type": "choice",
+    "question": "At present, ___________ have come to be viewed as a “model minority”; several of them have won Nobel Prizes.",
+    "question_zh": "目前，________被视为“模范少数族裔”；其中多人已获诺贝尔奖。",
+    "options": [
+      "A. Asian Americans",
+      "B. American Indians",
+      "C. the Whites",
+      "D. Hispanics"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Asian Americans"
+  },
+  {
+    "id": "Qmin4zkgicj",
+    "type": "choice",
+    "question": "_______________ are people who came to the New World prior to the founding of the US.",
+    "question_zh": "________是指在美国建国前抵达新大陆的人群。",
+    "options": [
+      "A. Early Immigrants",
+      "B. New Immigrants",
+      "C. Old Immigrants",
+      "D. Late Immigrants"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Early Immigrants"
+  },
+  {
+    "id": "Qmin4zkgi12",
+    "type": "choice",
+    "question": "__________ and Texas are the most populous states, which means the center of American population has shifted westward and southward.",
+    "question_zh": "_和得克萨斯州是人口最多的州，表明美国人口重心已向西和向南转移。",
+    "options": [
+      "A. Florida",
+      "B. California",
+      "C. New York State",
+      "D. New Jersey"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. California"
+  },
+  {
+    "id": "Qmin4zkgice",
+    "type": "choice",
+    "question": "The Union Army under the command of _____ defeated the Confederate Army at Gettysburg, Pennsylvania during the Civil War.",
+    "question_zh": "内战期间，指挥的联邦军队在宾夕法尼亚州葛底斯堡击败了邦联军队。",
+    "options": [
+      "A. Abraham Lincoln",
+      "B. Ulysses S. Grant",
+      "C. Robert E. Lee",
+      "D. Andrew Jackson"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. Ulysses S. Grant"
+  },
+  {
+    "id": "Qmin4zkgijw",
+    "type": "choice",
+    "question": "In September 1783. Britain and the US signed the, which marked the independence of the United States.",
+    "question_zh": "1783年9月，英国与美国签署《》，标志着美国独立。",
+    "options": [
+      "A. Treaty of Paris",
+      "B. Declaration of Independence",
+      "C. Articles of Confederation",
+      "D. Great Compromise of July 16"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Treaty of Paris"
+  },
+  {
+    "id": "Qmin4zkgi70",
+    "type": "choice",
+    "question": "Which of the following statements does NOT properly describe the Progressive Movement of the early 20th century?",
+    "question_zh": "以下哪项未能准确描述20世纪初的进步运动？",
+    "options": [
+      "A. The movement required both political and military efforts.",
+      "B. The movement demanded a series of social reforms.",
+      "C. The movement was not an organized campaign with clearly defined goals.",
+      "D. The movement started at the “grass roots” level."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. The movement required both political and military efforts."
+  },
+  {
+    "id": "Qmin4zkgi92",
+    "type": "choice",
+    "question": "Which of the following US Presidents was in power when the Great Depression just took place in 1929?",
+    "question_zh": "1929年大萧条爆发时，哪位美国总统在任？",
+    "options": [
+      "A. Herbert C. Hoover.",
+      "B. Calvin Coolidge.",
+      "C. Franklin Roosevelt.",
+      "D. Warren G. Harding."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Herbert C. Hoover."
+  },
+  {
+    "id": "Qmin4zkgiqk",
+    "type": "choice",
+    "question": "started the New Deal program to get the United States out of the Great Depression.",
+    "question_zh": "启动了“新政”计划以帮助美国摆脱大萧条。",
+    "options": [
+      "A. Theodore Roosevelt",
+      "B. Woodrow Wilson",
+      "C. Franklin Roosevelt",
+      "D. Harry S. Truman"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. Franklin Roosevelt"
+  },
+  {
+    "id": "Qmin4zkgi8e",
+    "type": "choice",
+    "question": "The first group of English settlers went to North America in the year of and named the settlement they set up after.",
+    "question_zh": "1607年，首批英国移民抵达北美，并以________命名其建立的定居点。",
+    "options": [
+      "A. 1607, their king",
+      "B. 1620",
+      "their home city",
+      "C. 1617",
+      "their captain",
+      "D. 1603",
+      "their queen"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. 1607, their king"
+  },
+  {
+    "id": "Qmin4zkgifd",
+    "type": "choice",
+    "question": "Those that came to the new world from England in 1620 were mainly.",
+    "question_zh": "1620年从英国抵达新大陆的人群主要是。",
+    "options": [
+      "A. debtors",
+      "B. pilgrims persecuted in their home country",
+      "C. explorers",
+      "D. fortune seekers"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. pilgrims persecuted in their home country"
+  },
+  {
+    "id": "Qmin4zkgi4x",
+    "type": "choice",
+    "question": "How many states were there at the time of independence of the United States?",
+    "question_zh": "美国独立时共有________个州。",
+    "options": [
+      "A. 13.",
+      "B. 18.",
+      "C. 35.",
+      "D. 48."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. 13."
+  },
+  {
+    "id": "Qmin4zkgijp",
+    "type": "choice",
+    "question": "Which of the following was the last continental state added to the Union?",
+    "question_zh": "以下哪一州是最后加入联邦的大陆州？",
+    "options": [
+      "A. Kentucky.",
+      "B. Arizona.",
+      "C. Oregon.",
+      "D. Alaska."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Alaska."
+  },
+  {
+    "id": "Qmin4zkgii2",
+    "type": "choice",
+    "question": "In his inaugural speech, _____said, \"The only thing we have to fear is fear itself. \"",
+    "question_zh": "在其就职演说中，表示：“我们唯一需要恐惧的，就是恐惧本身。”",
+    "options": [
+      "A. Abraham Lincoln",
+      "B. John F. Kennedy",
+      "C. Franklin Roosevelt",
+      "D. Woodrow Wilson"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. Franklin Roosevelt"
+  },
+  {
+    "id": "Qmin4zkgilr",
+    "type": "choice",
+    "question": "The period after WWII, America witnessed a series of social movements, rebellions and changes except _____ .",
+    "question_zh": "二战后，美国经历了一系列社会运动、反抗与变革，但________除外。",
+    "options": [
+      "A. the Equal Rights Movement",
+      "B. anti-Vietnam War movement",
+      "C. feminist movement",
+      "D. the Civil Rights Movement"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. the Equal Rights Movement"
+  },
+  {
+    "id": "Qmin4zkgi6d",
+    "type": "choice",
+    "question": "Lincoln ended his famous Gettysburg Speech by these words; \"That government _____the people, _____the people, _____the people, shall not perish from the earth. \"",
+    "question_zh": "林肯在著名的葛底斯堡演说结尾说道：“民有、民治、民享的政府，从地球上消亡。”",
+    "options": [
+      "A. to",
+      "for",
+      "by",
+      "B. from",
+      "of",
+      "for",
+      "C. with",
+      "of",
+      "by",
+      "D. of",
+      "by",
+      "for"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. of; by; for"
+  },
+  {
+    "id": "Qmin4zkgifi",
+    "type": "choice",
+    "question": "The victory of _____ was the turning point of the War of Independence.",
+    "question_zh": "的胜利是独立战争的转折点。",
+    "options": [
+      "A. Saratoga",
+      "B. Gettysburg",
+      "C. Trenton",
+      "D. Yorktown"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Yorktown"
+  },
+  {
+    "id": "Qmin4zkgiaj",
+    "type": "choice",
+    "question": "_____ played an important role in the construction of cross-country railroads in the 1860s.",
+    "question_zh": "在19世纪60年代横贯大陆铁路建设中发挥了重要作用。",
+    "options": [
+      "A. Black Americans",
+      "B. Hispanics",
+      "C. Chinese laborers",
+      "D. Japanese-Americans"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. Chinese laborers"
+  },
+  {
+    "id": "Qmin4zkgi93",
+    "type": "choice",
+    "question": "When did the American Civil War break out?",
+    "question_zh": "美国南北战争何时爆发？",
+    "options": [
+      "A. In 1775",
+      "B. In 1812",
+      "C. In 1861",
+      "D. In 1863"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. In 1861"
+  },
+  {
+    "id": "Qmin4zkgib1",
+    "type": "choice",
+    "question": "After the WWI, the US President Woodrow Wilson refused to ratify the ______ which included little of his proposal except the founding of the League of Nations, which was controlled by Britain and France.",
+    "question_zh": "一战后，美国总统伍德罗·威尔逊拒绝批准，该条约仅包含其提议的极少内容，除由英法控制的国际联盟外。",
+    "options": [
+      "A. Treaty of Versailles",
+      "B. Declaration of Independence",
+      "C. Articles of Confederation",
+      "D. Great Compromise of July 16"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Treaty of Versailles"
+  },
+  {
+    "id": "Qmin4zkgicd",
+    "type": "choice",
+    "question": "A historic moment of the civil rights movement was the March on Washington of August 28, 1963 when _____ delivered his speech \"I Have a Dream\".",
+    "question_zh": "民权运动的历史性时刻是1963年8月28日的“向华盛顿进军”，当时________发表了“我有一个梦想”演讲。",
+    "options": [
+      "A. John F. Kennedy",
+      "B. President Johnson",
+      "C. Martin Luther King Jr.",
+      "D. Mario Savio"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. Martin Luther King Jr."
+  },
+  {
+    "id": "Qmin4zkgijx",
+    "type": "choice",
+    "question": "The US experienced the longest continuous economic expansion since WWII and the US seemed invincible until terrorist attacks on __________ .",
+    "question_zh": "美国经历了二战以来最长的持续经济扩张，直至________遭受恐怖袭击，其不可战胜的表象才被打破。",
+    "options": [
+      "A. September 11 th , 1991",
+      "B. September 11 th , 2001",
+      "C. November 9 th, 2001",
+      "D. November, 9 th, 1991"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. September 11 th , 2001"
+  },
+  {
+    "id": "Qmin4zkgikn",
+    "type": "choice",
+    "question": "Before WWI, America resorted to the _________ which claimed that the Western Hemisphere was its sphere of influence and warned European powers to keep hands off or risk wars.",
+    "question_zh": "一战前，美国奉行，宣称西半球为其势力范围，并警告欧洲列强不得干涉，否则将面临战争。",
+    "options": [
+      "A. Monroe Doctrine",
+      "B. Isolationism",
+      "C. Open Door Policy",
+      "D. Conservatism"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Monroe Doctrine"
+  },
+  {
+    "id": "Qmin4zkgi4e",
+    "type": "choice",
+    "question": "The British established 13 colonies along _________.",
+    "question_zh": "英国沿________建立了13个殖民地。",
+    "options": [
+      "A. the west coast of North America",
+      "B. the west coast of South America",
+      "C. the east coast of North America",
+      "D. the east coast of South America"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. the east coast of North America"
+  },
+  {
+    "id": "Qmin4zkgi37",
+    "type": "choice",
+    "question": "The Progressive Movement wanted to ________ in order to stop big business control.",
+    "question_zh": "进步运动旨在，以遏制大企业的控制。",
+    "options": [
+      "A. initiate strict government regulation",
+      "B. have the government fix prices",
+      "C. break up all the big businesses",
+      "D. do away with rebates"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. initiate strict government regulation"
+  },
+  {
+    "id": "Qmin4zkgiar",
+    "type": "choice",
+    "question": "In American history, the refers to the post-civil War period, known for the sharp contrast between the rich and the poor, for corrupt politics and governments, and for illegal means of big businesses to win huge profits.",
+    "question_zh": "在美国历史上，指内战后的时期，以贫富差距悬殊、政治腐败及大企业非法牟取暴利为特征。",
+    "options": [
+      "A. Modern Age",
+      "B. Gilded Age",
+      "C. Lost Age",
+      "D. Development Age"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. Gilded Age"
+  },
+  {
+    "id": "Qmin4zkgi3s",
+    "type": "choice",
+    "question": "The serious economic crisis in the late 1920s and 1930s was first brought about by _____________.",
+    "question_zh": "20世纪20年代末至30年代的严重经济危机最初由________引发。",
+    "options": [
+      "A. bank failures",
+      "B. serious unemployment",
+      "C. farm foreclosures",
+      "D. the stock market crash"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. the stock market crash"
+  },
+  {
+    "id": "Qmin4zkgibe",
+    "type": "choice",
+    "question": "The purpose of the New Deal measures was to __________.",
+    "question_zh": "“新政”措施的目的是。",
+    "options": [
+      "A. save American democracy and the capitalist system",
+      "B. check the worsening of the economic situation",
+      "C. help people tide over the difficulty",
+      "D. increase American export"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. save American democracy and the capitalist system"
+  },
+  {
+    "id": "Qmin4zkgi1c",
+    "type": "choice",
+    "question": "On June 5, 1947, ________ suggested that the U.S. should offer economic aid to Western Europe so as to protect the region from Soviet expansion.",
+    "question_zh": "1947年6月5日，提议美国应向西欧提供经济援助，以防止该地区受到苏联扩张威胁。",
+    "options": [
+      "A. George Marshall",
+      "B. Franklin D. Roosevelt",
+      "C. George Kennan",
+      "D. Harry Truman"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. George Marshall"
+  },
+  {
+    "id": "Qmin4zkgii",
+    "type": "choice",
+    "question": "The United States of America is the ____________ country in the world in size.",
+    "question_zh": "按国土面积计算，美国是世界________大国。",
+    "options": [
+      "A. largest",
+      "B. second-largest",
+      "C. third-largest",
+      "D. fourth-largest"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. fourth-largest"
+  },
+  {
+    "id": "Qmin4zkgi4l",
+    "type": "choice",
+    "question": "____________ extend from the northern tip of Maine southwestern to Alabama.",
+    "question_zh": "从缅因州北部延伸至阿拉巴马州西南部。",
+    "options": [
+      "A. The Rocky Mountains",
+      "B. The Appalachian Highlands",
+      "C. The Coast Mountains",
+      "D. The Blue Mountains"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. The Appalachian Highlands"
+  },
+  {
+    "id": "Qmin4zkgi2x",
+    "type": "choice",
+    "question": "The climate of the United States is influenced by ____________.",
+    "question_zh": "美国气候受________影响。",
+    "options": [
+      "A. the Atlantic and Pacific Oceans",
+      "B. the Gulf of Mexico",
+      "C. the Great Lakes",
+      "D. All of the above"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. All of the above"
+  },
+  {
+    "id": "Qmin4zkgiz",
+    "type": "choice",
+    "question": "What is the leading commercial crop of the south?",
+    "question_zh": "南部最主要的经济作物是什么？",
+    "options": [
+      "A. Wheat.",
+      "B. Tobacco.",
+      "C. Sugar cane.",
+      "D. Rice."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. Tobacco."
+  },
+  {
+    "id": "Qmin4zkgifq",
+    "type": "choice",
+    "question": "What Midwestern city is the automobile capital of the world?",
+    "question_zh": "美国中西部哪座城市是世界汽车工业中心？",
+    "options": [
+      "A. Chicago.",
+      "B. Detroit.",
+      "C. Milwaukee.",
+      "D. Cleveland."
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. Detroit."
+  },
+  {
+    "id": "Qmin4zkgidd",
+    "type": "choice",
+    "question": "One of the most important lakes in the United States is _________, which is the largest fresh water lake in the world.",
+    "question_zh": "美国最重要的湖泊之一是，它是全球最大的淡水湖。",
+    "options": [
+      "A. Lake Superior",
+      "B. Lake Michigan",
+      "C. Lake Huron",
+      "D. Lake Ontario"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Lake Superior"
+  },
+  {
+    "id": "Qmin4zkgi6e",
+    "type": "choice",
+    "question": "New England lies in __________ of the United States.",
+    "question_zh": "新英格兰位于美国的。",
+    "options": [
+      "A. the northern part",
+      "B. the southern part",
+      "C. the northeastern part",
+      "D. the southeastern part"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "C. the northeastern part"
+  },
+  {
+    "id": "Qmin4zkgi3e",
+    "type": "choice",
+    "question": "The southern part of the Pacific coast in California has a ___________ climate.",
+    "question_zh": "加利福尼亚州太平洋沿岸南部地区属于________气候。",
+    "options": [
+      "A. subtropical",
+      "B. continental desert",
+      "C. maritime",
+      "D. Mediterranean"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "D. Mediterranean"
+  },
+  {
+    "id": "Qmin4zkgirf",
+    "type": "choice",
+    "question": "The smallest state in the United States is ___________.",
+    "question_zh": "美国面积最小的州是。",
+    "options": [
+      "A. Washington",
+      "B. Rhode Island",
+      "C. Hawaii",
+      "D. Maryland"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "B. Rhode Island"
+  },
+  {
+    "id": "Qmin4zkgipn",
+    "type": "choice",
+    "question": "In the United States, the largest city along the Pacific coast is ___________.",
+    "question_zh": "在美国，太平洋沿岸最大的城市是_。",
+    "options": [
+      "A. Los Angeles",
+      "B. San Francisco",
+      "C. Seattle",
+      "D. Portland"
+    ],
+    "options_zh": [
+      ""
+    ],
+    "answer": "A. Los Angeles"
+  }
+]

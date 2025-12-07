@@ -21,7 +21,7 @@ export default function Entry() {
   return (
     <div className="h-screen flex flex-col items-center justify-center bg-gray-50 text-indigo-600">
       <Loader2 className="animate-spin h-10 w-10 mb-4" />
-      <h1 className="text-xl font-semibold text-gray-700">Loading GetPass...</h1>
+      <h1 className="text-xl font-semibold text-gray-700">正在加载GetPass Pro...</h1>
     </div>
   );
 }

@@ -25,11 +25,14 @@ export default function WrongBook() {
 
   // 模拟“重练错题”：其实就是进入一个特殊的练习页，或者在这里直接做
   // 简化起见，这里做一个提示，实际项目可跳转带参数的练习页
+// 找到 handleRePractice 函数，替换为：
   const handleRePractice = () => {
-    if (items.length === 0) return;
-    if (confirm("准备好重新挑战这些错题了吗？(此功能需后端支持错题模式，目前仅做演示)")) {
-       // window.location.href = '/exercise?mode=wrongbook';
+    if (items.length === 0) {
+      alert("太棒了！你目前没有错题！");
+      return;
     }
+    // 跳转到带 mode=wrong 的练习页
+    window.location.href = '/exercise?mode=wrong'; 
   };
 
   return (

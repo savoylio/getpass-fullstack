@@ -1,0 +1,36 @@
+A. 选择题 (Choice)
+code
+JSON
+{
+  "id": "C_001",                // sid: 必须唯一，建议 C_开头
+  "type": "choice",             // 固定
+  "question": "Which state is the largest?",
+  "question_zh": "哪个州最大？",
+  "options": ["Alaska", "Texas", "California", "Montana"],
+  "options_zh": ["阿拉斯加", "德克萨斯", "加利福尼亚", "蒙大拿"],
+  "answer": "A. Alaska",        // 字符串，完全匹配选项内容
+  "alt_answer": ["Alaska"]      // 备选答案数组（可选）
+}
+B. 填空题 (Blank)
+code
+JSON
+{
+  "id": "B_001",                // sid: 必须唯一，建议 B_开头
+  "type": "blank",
+  "question": "The capital of USA is ____.",
+  "question_zh": "美国的首都是____。",
+  "blank_count": 1,             // 空格数量
+  "answer": ["Washington D.C."], // 数组：对应每个空的答案
+  "alt_answer": ["Washington", "DC"] // 数组：模糊匹配备选项
+}
+C. 判断题 (True/False)
+code
+JSON
+{
+  "id": "TF_001",               // sid: 必须唯一，建议 TF_开头
+  "type": "true_false",         // 注意是带下划线的
+  "question": "The earth is flat.",
+  "question_zh": "地球是平的。",
+  "answer": false,              // 布尔值
+  "alt_answer": []
+}

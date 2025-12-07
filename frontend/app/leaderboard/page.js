@@ -3,18 +3,23 @@ import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import api from '@/lib/api';
 import { Medal, ThumbsUp, Angry, Info } from 'lucide-react';
+import { useToast } from '@/context/ToastContext';
 import clsx from 'clsx';
 
 export default function Leaderboard() {
+  const { showToast } = useToast();
   const [list, setList] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState('exam'); // exam, choice, blank, true_false
+  const [tab, setTab] = useState('exam'); 
 
   const fetchBoard = (type) => {
     setLoading(true);
     setTab(type);
     api.get(`/leaderboard?type=${type}`).then(res => {
       setList(res.data);
+      setLoading(false);
+    }).catch(() => {
+      showToast('获取榜单失败', 'error');
       setLoading(false);
     });
   };
@@ -24,26 +29,31 @@ export default function Leaderboard() {
   }, []);
 
   const handleInteract = async (toUserId, type, index) => {
+    // 乐观更新：先改 UI，再发请求
+    const originalList = [...list];
+    const newList = [...list];
+    
+    // UI 立即反馈 (+1)
+    if (type === 'like') newList[index].likes++;
+    else newList[index].angries++;
+    setList(newList);
+
     try {
-      const res = await api.post('/message/send', { toUserId, type, boardType: tab });
-      alert(type === 'like' ? '哇，膜拜大佬！' : '亲爱的别卷了！');
-      
-      // 乐观更新 UI
-      const newList = [...list];
-      if (type === 'like') newList[index].likes++;
-      else newList[index].angries++;
-      setList(newList);
-      
+      await api.post('/message/send', { toUserId, type, boardType: tab });
+      showToast(type === 'like' ? '点赞成功！' : '发送了愤怒表情！', 'success');
     } catch (e) {
-      alert('操作失败');
+      // 失败回滚
+      setList(originalList);
+      const errMsg = e.response?.data?.error || '操作失败';
+      showToast(errMsg, 'error'); // 这里会显示“今天已经互动过了”
     }
   };
 
   const tabs = [
     { id: 'exam', label: '🏆 考试榜' },
-    { id: 'choice', label: '📖 选择题刷题榜' },
-    { id: 'blank', label: '✍️ 填空题刷题榜' },
-    { id: 'true_false', label: '⚖️ 判断题刷题榜' },
+    { id: 'choice', label: '📖 选择题榜' },
+    { id: 'blank', label: '✍️ 填空题榜' },
+    { id: 'true_false', label: '⚖️ 判断题榜' },
   ];
 
   return (
@@ -68,12 +78,11 @@ export default function Leaderboard() {
           ))}
         </div>
 
-        {/* 规则说明 */}
         <div className="bg-blue-50 text-blue-700 text-xs p-3 rounded-lg mb-6 flex items-start gap-2 leading-relaxed">
            <Info size={14} className="mt-0.5 shrink-0"/>
            {tab === 'exam' 
-             ? "考试榜：按历史最高分排名。同一用户多次考试取最高分。每日凌晨自动刷新。" 
-             : "刷题榜：按完整刷完该题型题库的轮数排名。刷得越多，记得越牢！每日凌晨自动刷新。"}
+             ? "考试榜：按历史最高分排名。点赞/愤怒每天凌晨清空，可重复互动。" 
+             : "刷题榜：按累计刷题轮数排名。点赞/愤怒永久累计，每天限每人一次。"}
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
@@ -102,14 +111,14 @@ export default function Leaderboard() {
                    <div className="flex gap-3">
                       <button 
                         onClick={() => handleInteract(u.userId, 'like', i)}
-                        className="flex flex-col items-center gap-1 text-gray-400 hover:text-blue-600 transition"
+                        className="flex flex-col items-center gap-1 text-gray-400 hover:text-blue-600 transition active:scale-95"
                       >
                         <div className="p-2 bg-gray-50 rounded-full hover:bg-blue-100"><ThumbsUp size={18}/></div>
                         <span className="text-[10px] font-bold">{u.likes}</span>
                       </button>
                       <button 
                         onClick={() => handleInteract(u.userId, 'angry', i)}
-                        className="flex flex-col items-center gap-1 text-gray-400 hover:text-red-600 transition"
+                        className="flex flex-col items-center gap-1 text-gray-400 hover:text-red-600 transition active:scale-95"
                       >
                         <div className="p-2 bg-gray-50 rounded-full hover:bg-red-100"><Angry size={18}/></div>
                         <span className="text-[10px] font-bold">{u.angries}</span>

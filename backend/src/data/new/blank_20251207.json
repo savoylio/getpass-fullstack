@@ -1,0 +1,825 @@
+[
+  {
+    "id": "b_2025_001",
+    "type": "blank",
+    "question": "The ____has historically been referred to as the “First National Flag”.",
+    "question_zh": "历史上，____被称为“第一面国旗”。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Grand Union Flag"
+    ],
+    "alt_answer": [
+      "Grand Union"
+    ],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_002",
+    "type": "blank",
+    "question": "Regarding the colors of the national flay, ____signifies purity and innocence; ____signifies bravery; and ____signifies vigilance, perseverance and justice.",
+    "question_zh": "关于国旗颜色，象征纯洁与清白；象征勇气；象征警觉、坚韧与正义。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_003",
+    "type": "blank",
+    "question": "The capital Washington is in the District of ____, on the Potomac River.",
+    "question_zh": "首都华盛顿位于____特区，坐落在波托马克河畔。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Columbia"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_004",
+    "type": "blank",
+    "question": "The US has ____as its nickname.",
+    "question_zh": "美国的昵称是____。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Uncle Sam"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_005",
+    "type": "blank",
+    "question": "Among all the states in the US, the largest in size is____.",
+    "question_zh": "在美国所有州中，面积最大的是。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Alaska"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_006",
+    "type": "blank",
+    "question": "The ____area is regarded as the “Cradle of America”.",
+    "question_zh": "地区被视为“美国摇篮”。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "New England"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_007",
+    "type": "blank",
+    "question": "The Deep South is sometimes called the ____because cotton was once the major crop in the region.",
+    "question_zh": "深南部有时被称为，因为棉花曾是该地区的主要作物。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Cotton Belt"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_008",
+    "type": "blank",
+    "question": "The Rockies were formed about 70 million years ago and are called the “____of the Continent”.",
+    "question_zh": "落基山脉形成于约7000万年前，被称为“大陆的”。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Backbone"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_009",
+    "type": "blank",
+    "question": "The central plain of the US is bounded by the ____Mountains on the east and the ____Mountains to the west.",
+    "question_zh": "美国中部平原东临____山脉，西接____山脉。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Appalachian",
+      "Rocky"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_010",
+    "type": "blank",
+    "question": "The continental United States is bounded by ____on the north and by Mexico and the Gulf of Mexico on the south.",
+    "question_zh": "美国本土北接，南邻墨西哥和墨西哥湾。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Canada"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_011",
+    "type": "blank",
+    "question": "As the supreme law of the United States, the ____is the foundation and source of the legal authority underlying the existence of the USA and the federal government of the US.",
+    "question_zh": "作为美国最高法律，是美国存在及其联邦政府法律权威的基础与来源。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Constitution"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_012",
+    "type": "blank",
+    "question": "The first 10 amendments to the Constitution is called the ____, which was adopted on September 17th, 1787.",
+    "question_zh": "宪法前10条修正案称为，于1787年9月17日通过。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Bill of Rights"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_013",
+    "type": "blank",
+    "question": "The ____refers to a system of law that prevails in England and in countries colonized by England, which is the traditional element in the law of America, as opposed to its statutory law or legislation.",
+    "question_zh": "指盛行于英国及英国殖民地的法律体系，是美国法律的传统组成部分，与成文法相对。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Common Law"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_014",
+    "type": "blank",
+    "question": "The jury system of the United States has two types of juries. They are ____Jury and ____Jury.(答案填入全小写；两个陪审团先大后小)",
+    "question_zh": "美国陪审制度包含两种陪审团：陪审团和____陪审团。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "grand",
+      "petit"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_015",
+    "type": "blank",
+    "question": "It is not until the ____________________ of the 1930s that there emerged some measure of awareness that social services should be provided for those in need.",
+    "question_zh": "直至1930年代的_____，才开始出现为有需要者提供社会服务的初步共识。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Great Depression"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_016",
+    "type": "blank",
+    "question": "Public services are divided into two main section: the ________________ system and the ___________ system.（全小写即可）",
+    "question_zh": "公共服务分为两大体系：_系统和___________系统。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "social security",
+      "welfare"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_017",
+    "type": "blank",
+    "question": "The ___________________ or nicknamed Obamacare, enacted in 2010, represents the US healthcare system’s most significant regulatory overhaul and expansion of coverage.",
+    "question_zh": "__（俗称\"奥巴马医改\"）于2010年颁布，代表美国医疗体系最重大的监管改革与覆盖范围扩展。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Affordable Care Act"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_018",
+    "type": "blank",
+    "question": "The best known stock exchange is the ____in the Wall Street area of New York City, the largest city and a major business center.",
+    "question_zh": "最著名的证券交易所是纽约市华尔街地区的，该市是美国最大城市及重要商业中心。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "New York Stock Exchange"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_019",
+    "type": "blank",
+    "question": "The American economy is characterized by a high degree of ____. Many of the nation's basic industries are represented by only a few major corporations.",
+    "question_zh": "美国经济以高度____为特征。许多基础产业仅由少数大型企业主导。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "monopoly"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_020",
+    "type": "blank",
+    "question": "The united states is a ____union of 50 states, with the District of Columbia as the seat of the federal government.",
+    "question_zh": "美利坚合众国是由50个州组成的____联盟，哥伦比亚特区为联邦政府所在地。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "federal"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_021",
+    "type": "blank",
+    "question": "In the US, the ____branch is the only branch which has the right to make federal laws.",
+    "question_zh": "在美国，部门是唯一拥有制定联邦法律权力的部门。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "legislative"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_022",
+    "type": "blank",
+    "question": "The chief executive of the US government is the ____of the United States. ",
+    "question_zh": "美国政府的最高行政长官是。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "President"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_023",
+    "type": "blank",
+    "question": "The United States ____Hill is the building where Congress meets. It stands on a hill in Washington, D. C. Besides serving as a government office building, it is a symbol of the United States.",
+    "question_zh": "美国____山是国会开会的建筑，坐落于华盛顿特区的一座小山上。除作为政府办公楼外，它还是美国的象征。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Capitol"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_024",
+    "type": "blank",
+    "question": "Each branch of government can check, or block the actions of the other branches. The three branches are thus in balance, which is called ____ and ____.",
+    "question_zh": "政府各分支可相互制衡或阻止其他分支行动，三权由此保持平衡，称为____与。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Checks",
+      "Balances"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_025",
+    "type": "blank",
+    "question": "There are two major political parties in America. People consider the more liberal one is the ____Party, the more conservative one is the ____Party.",
+    "question_zh": "美国有两大主要政党。人们认为较自由的政党是____党，较保守的政党是____党。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Democratic",
+      "Republican"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_026",
+    "type": "blank",
+    "question": "The federal supreme court of the US is composed of ____justices who are appointed for life by the President with the approval of the ____.",
+    "question_zh": "美国联邦最高法院由____名终身任职的大法官组成，由总统任命并经____批准。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "9",
+      "congress"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_027",
+    "type": "blank",
+    "question": "In American politics, donkey is usually a symbol of the ____Party while elephant stands for ____Party.",
+    "question_zh": "在美国政治中，驴通常象征____党，而大象代表____党。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Democratic",
+      "Republican"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_028",
+    "type": "blank",
+    "question": "The _____Belt refers to an economic region of the United States concentrated in the formerly dominant industrial states experiencing a devastating economic change and outflow of population.",
+    "question_zh": "地带指美国经济区域，曾以主导工业州集中为特征，现正经历经济剧变与人口外流。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Rust"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_029",
+    "type": "blank",
+    "question": "The United States has long been known as a nation of ____because many of its people descend from settlers who came from all over the world.",
+    "question_zh": "美国长期以____之国著称，因其多数人口源自全球各地的移民。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "immigrants"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_030",
+    "type": "blank",
+    "question": "____is the second most common language in America.",
+    "question_zh": "是美国第二大常用语言。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Spanish"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_031",
+    "type": "blank",
+    "question": "American public education is operated by _______ and _________ governments.",
+    "question_zh": "美国公共教育由____和____政府运营。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "state",
+      "local"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_032",
+    "type": "blank",
+    "question": "When North America was “discovered,” and settled by Europeans, native Americans were driven westward to live in barren desert places, the so-called “ ___________”.",
+    "question_zh": "当欧洲人\"发现\"并定居北美时，美洲原住民被驱赶至荒凉沙漠地带生活，即所谓的\"\"。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Indian Reservations"
+    ],
+    "alt_answer": [
+      "Reservation"
+    ],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_033",
+    "type": "blank",
+    "question": "After the WWII, blacks formed the _______ _______ movement to end discrimination and fought for equal civil rights.",
+    "question_zh": "二战后，黑人发起了_ 运动，旨在终结歧视并争取平等公民权利。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Civil",
+      "Rights"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_034",
+    "type": "blank",
+    "question": "Among the whites of the United States, the most powerful and influential group is _________________(缩略词).",
+    "question_zh": "在美国白人中，最具权势和影响力的群体是____（缩略词）。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "WASP"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_035",
+    "type": "blank",
+    "question": "When Abraham Lincoln was elected President, the southern states broke away from the Union and formed a new nation, which was called the ____of America.",
+    "question_zh": "亚伯拉罕·林肯当选总统时，南部各州脱离联邦成立新国家，称为____美利坚。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Confederate States"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_036",
+    "type": "blank",
+    "question": "The US ____Louisiana Territory from Napoleonic France in Paris in 1803.",
+    "question_zh": "1803年，美国在巴黎从拿破仑法国____路易斯安那领地。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "purchased"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_037",
+    "type": "blank",
+    "question": "Abraham Lincoln issued the ____to make the Civil War a just war against slavery.",
+    "question_zh": "亚伯拉罕·林肯颁布_，使内战成为反对奴隶制的正义战争。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Emancipation Proclamation"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_038",
+    "type": "blank",
+    "question": "The American Civil War removed the obstacles to the development of ____in the U.S. and economically laid a good foundation for the rise of it.",
+    "question_zh": "美国内战扫除了美国____发展的障碍，为经济崛起奠定了良好基础。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "capitalism"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_039",
+    "type": "blank",
+    "question": "The US started the ____to contain Soviet Union in an all-around way without direct military conflicts with the Soviet Union.",
+    "question_zh": "美国启动____以全方位遏制苏联，但未与苏联发生直接军事冲突。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Cold War"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_040",
+    "type": "blank",
+    "question": "Between 1607 and 1733 the British established ____(how many)colonies along the east coast of North America.",
+    "question_zh": "1607至1733年间，英国在北美东海岸建立了____（数量）个殖民地。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "thirteen"
+    ],
+    "alt_answer": [
+      "13"
+    ],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_041",
+    "type": "blank",
+    "question": "The____was presented to the United States by France as a gift was to commemorate the alliance between the two countries during the American Revolution. ",
+    "question_zh": "____作为法国赠礼，旨在纪念两国在独立战争期间的联盟。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Statue of Liberty"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_042",
+    "type": "blank",
+    "question": "The first shot of the War of American Independence was fired in____.",
+    "question_zh": "美国独立战争第一枪在____打响。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Lexington"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_043",
+    "type": "blank",
+    "question": "The man who was chiefly responsible for composing the Declaration of Independence, which marked the birth of the US, was George ____, the ____ (第几任) president of the country.",
+    "question_zh": "主要负责起草标志美国诞生的《独立宣言》的是乔治____，该国第____任总统。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Washington",
+      "1"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_044",
+    "type": "blank",
+    "question": "“____” is given to those members who made the second British colony in New England taking the famous ship Mayflower.",
+    "question_zh": "\"\"称号授予乘坐著名\"五月花号\"船建立新英格兰第二处英国殖民地的成员。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Pilgrim Fathers"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_045",
+    "type": "blank",
+    "question": "The earliest inhabitants of the American land were the Native Americans who consisted of many different tribes. They are collectively called Native Americans or sometimes, ____.",
+    "question_zh": "美洲最早居民是包含众多部落的美洲原住民，统称____或有时称为___。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "American Indians"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_046",
+    "type": "blank",
+    "question": "Native Americans believed that everything in nature had ____power and worshipped them, such as trees, rivers, and animals.",
+    "question_zh": "美洲原住民认为自然界万物皆具____力量，并崇拜树木、河流及动物等。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "spiritual"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_047",
+    "type": "blank",
+    "question": "Many European countries established colonies in North America from the 16th century to the 18th century. The major colonies were held by ____, the Netherlands, ____and Britain.",
+    "question_zh": "16至18世纪，多个欧洲国家在北美建立殖民地。主要殖民地由__、荷兰、和英国控制。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Spain",
+      "France"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_048",
+    "type": "blank",
+    "question": "The Spanish came for 3 Gs: ____(to get rich), ____(to spread Catholicism) and glory (to serve the king).",
+    "question_zh": "西班牙人追求\"三G\"：____（致富）、____（传播天主教）与荣耀（效忠国王）。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "gold",
+      "God"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_049",
+    "type": "blank",
+    "question": "Puritans in New England were pious and strictly followed the Bible for religion guidance. Therefore, they attached great importance to ____so people could read the Bible directly.",
+    "question_zh": "新英格兰清教徒虔诚守纪，严格遵循《圣经》指导宗教生活，因此高度重视，使民众能直接阅读《圣经》。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "education"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_050",
+    "type": "blank",
+    "question": "On Dec. 16, 1773, 60 colonists disguised as Indians, boarded on the tea ship and poured the tea into the sea. The event is known as the ____.",
+    "question_zh": "1773年12月16日，60名伪装成印第安人的殖民者登船将茶叶倾倒入海，该事件称为___。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Boston Tea Party"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_051",
+    "type": "blank",
+    "question": "____is an antislavery novel written by Mrs. Stowe in 1852 which had great political influence before the outbreak of the Civil War.",
+    "question_zh": "是斯托夫人1852年创作的反奴隶制小说，内战爆发前具有重大政治影响。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Uncle Tom's Cabin"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_052",
+    "type": "blank",
+    "question": "The New York stock crash in 1929 lifted the curtain on the ____, which led to the outbreak of WWII.",
+    "question_zh": "1929年纽约股市崩盘揭开了____的序幕，最终导致二战爆发。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Great Depression"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_053",
+    "type": "blank",
+    "question": "On December 7, 1941, Japanese planes bombed ____trying to destroy its Pacific Fleet. The U.S. was shocked and declared war on Japan the following day.",
+    "question_zh": "1941年12月7日，日本飞机轰炸，企图摧毁其太平洋舰队。美国震惊之下于次日对日宣战。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Pearl Harbor"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_054",
+    "type": "blank",
+    "question": "In the social area of the Progressive Movement, living conditions for the poor in cities were improved, ____was eventually banned, working hours were limited, and ____ insurance was implemented.",
+    "question_zh": "进步运动的社会领域中，城市贫民生活条件得到改善，____最终被禁止，工作时间受到限制，并实施____保险。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "child labor",
+      "industrial accident"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_055",
+    "type": "blank",
+    "question": "____schools are free and open to all at all three levels of education, elementary, secondary and tertiary level.",
+    "question_zh": "学校在初等、中等和高等教育三个阶段均免费向所有人开放。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Public"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_056",
+    "type": "blank",
+    "question": "Every state in America has its own laws about education and all states require young people to go to school. Thus, every child in America is guaranteed up to ____years of free public education.",
+    "question_zh": "美国每个州都有自己的教育法律，所有州均要求青少年接受教育。因此，美国每名儿童都享有最高____年的免费公立教育保障。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "12"
+    ],
+    "alt_answer": [
+      "twelve"
+    ],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_057",
+    "type": "blank",
+    "question": "The system of higher education in the United States has three principal functions:research, teaching and ____.",
+    "question_zh": "美国高等教育体系具有三大主要职能：科研、教学和。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "service"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_058",
+    "type": "blank",
+    "question": "In American, there are 6 years of elementary school and usually ____years of middle school (or junior high school), and ____years of high school (or senior high school).",
+    "question_zh": "在美国，小学学制为6年，通常设有____年初级中学（或初中），以及____年高级中学（或高中）。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "3",
+      "4"
+    ],
+    "alt_answer": [],
+    "blank_count": 2
+  },
+  {
+    "id": "b_2025_059",
+    "type": "blank",
+    "question": "The____Amendment to the Constitution of the United States guarantees the free exercise of religion and forbid the establishment of any religious governance.",
+    "question_zh": "美国宪法____修正案保障宗教信仰自由，并禁止设立任何宗教治理机构。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "First"
+    ],
+    "alt_answer": [
+      "1st"
+    ],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_060",
+    "type": "blank",
+    "question": "Although in today's America the largest church is of the Protestant faith, the largest single religious group is that of the ____Catholics.",
+    "question_zh": "尽管当今美国规模最大的教会属于新教信仰，但最大的单一宗教群体是____天主教徒。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "Roman"
+    ],
+    "alt_answer": [],
+    "blank_count": 1
+  },
+  {
+    "id": "b_2025_061",
+    "type": "blank",
+    "question": "The basic idea in American national polities of religion is the separation of ____and ____.",
+    "question_zh": "美国宗教政治的基本原则是____与____的分离。",
+    "options": [],
+    "options_zh": [],
+    "answer": [
+      "state",
+      "church"
+    ],
+    "alt_answer": [
+      "church",
+      "state"
+    ],
+    "blank_count": 2
+  }
+]

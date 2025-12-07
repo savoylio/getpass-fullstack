@@ -9,8 +9,18 @@ export default function MessageCenter() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // 1. 获取消息
     api.get('/message/my').then(res => {
       setMessages(res.data);
+      setLoading(false);
+      
+      // 2. 如果有未读消息，调用后端标记已读
+      const hasUnread = res.data.some(m => !m.read);
+      if (hasUnread) {
+        api.post('/message/read').catch(e => console.error('Mark read failed', e));
+      }
+    }).catch(err => {
+      console.error(err);
       setLoading(false);
     });
   }, []);
@@ -25,29 +35,33 @@ export default function MessageCenter() {
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
           {loading ? (
-            <div className="p-8 text-center text-gray-500">加载中...</div>
+            <div className="p-8 text-center text-gray-500">消息加载中...</div>
           ) : messages.length === 0 ? (
             <div className="p-12 text-center text-gray-400 flex flex-col items-center">
               <Bell size={40} className="mb-4 text-gray-200"/>
               暂无新消息
             </div>
           ) : (
-            messages.map((msg, i) => (
-              <div key={i} className={`p-4 border-b last:border-0 flex gap-4 ${msg.read ? 'bg-white' : 'bg-blue-50/50'}`}>
-                {/* 图标 */}
-                <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${msg.type === 'like' ? 'bg-blue-100 text-blue-600' : 'bg-red-100 text-red-600'}`}>
-                   {msg.type === 'like' ? <ThumbsUp size={18}/> : <Angry size={18}/>}
+            <div className="divide-y divide-gray-50">
+              {messages.map((msg, i) => (
+                <div key={i} className={`p-5 flex gap-4 transition-colors ${!msg.read ? 'bg-blue-50/60' : 'bg-white hover:bg-gray-50'}`}>
+                  {/* 图标 */}
+                  <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 shadow-sm ${msg.type === 'like' ? 'bg-blue-100 text-blue-600' : 'bg-red-100 text-red-600'}`}>
+                     {msg.type === 'like' ? <ThumbsUp size={18}/> : <Angry size={18}/>}
+                  </div>
+                  
+                  <div className="flex-1">
+                     <p className="text-gray-800 text-sm leading-relaxed">
+                       {msg.content}
+                     </p>
+                     <p className="text-xs text-gray-400 mt-2 font-medium">
+                       {new Date(msg.createdAt).toLocaleString()}
+                       {!msg.read && <span className="ml-2 text-red-500 font-bold text-[10px] bg-red-100 px-1.5 py-0.5 rounded">NEW</span>}
+                     </p>
+                  </div>
                 </div>
-                
-                <div className="flex-1">
-                   <p className="text-gray-800 text-sm">
-                     <span className="font-bold">{msg.from_user?.username || '有人'}</span> 
-                     {msg.type === 'like' ? ' 给你点了个赞！👍' : ' 对你的排名表示愤怒！😡'}
-                   </p>
-                   <p className="text-xs text-gray-400 mt-1">{new Date(msg.createdAt).toLocaleString()}</p>
-                </div>
-              </div>
-            ))
+              ))}
+            </div>
           )}
         </div>
       </div>

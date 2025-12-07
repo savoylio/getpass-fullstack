@@ -10,6 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
+  // 初始化检查登录状态
   useEffect(() => {
     const initAuth = async () => {
       const token = localStorage.getItem('token');
@@ -27,16 +28,22 @@ export const AuthProvider = ({ children }) => {
     initAuth();
   }, []);
 
-  const login = async (username, password) => {
-    const res = await api.post('/auth/login', { username, password });
+  // 登录逻辑 (已更新支持学号+验证码)
+  const login = async (account, password, captchaId, captchaAnswer) => {
+    const res = await api.post('/auth/login', { 
+      account, 
+      password, 
+      captchaId, 
+      captchaAnswer 
+    });
     localStorage.setItem('token', res.data.token);
     setUser(res.data.user);
     router.push('/home');
   };
 
-  const register = async (username, password) => {
-    await api.post('/auth/register', { username, password });
-    await login(username, password);
+  // 注册逻辑 (已废弃，保留空函数防止旧代码报错)
+  const register = async () => {
+    alert("公开注册已关闭，请使用学号登录。");
   };
 
   const logout = () => {
